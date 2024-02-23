@@ -15,9 +15,11 @@
     - Preparo l'HTML e il foglio di stile con le diverse classi
 
 - MILESTONE 2
-    - Preparo l'array con la lista immagini
-    - Dichiaro la variabile per l'immagine da visualizzare
-    - Aggiungo un ciclo FOR per ciclare le immagini
+    - Dichiaro l'array
+    - Dichiaro una variabile con valore 0 per indicare la prima posizione dell'array
+    - Dichiaro una variabile che vada a prendere la prima classe scelta dal documento
+    - Avvio un FOR per ciclare le immagini
+    - Printo il tag img con percorso e classe sull'html
     
 - MILESTONE 3
     - Seleziono gli elementi della DOM
