@@ -26,7 +26,7 @@ for (let i = 0; i < slides.length; i++) {
     const slide = slides[i];
     //console.log(slide); //printa la slide valore index
 
-    let slideUp = `<img class="${i === imgActive ? 'active' : ''}" src="./assests/img/${slide}">`;
+    let slideUp = `<img class="${i === imgActive ? 'active' : ''}" src="./assets/img/${slide}">`;
 
     //- Printo il tag img con percorso e classe sull'html
     slidesElement.innerHTML += slideUp;
