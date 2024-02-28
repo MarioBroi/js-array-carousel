@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .d-flex {
     display: flex;
 }
@@ -16,13 +20,21 @@
     position: relative;
 
     .slides {
+        height: 100%;
+        margin-top: 2rem;
 
         >img {
-            max-width: 100%;
+            width: 800px;
+            height: 400px;
+            object-position: right;
         }
 
         >img:not(.active) {
             display: none;
+        }
+
+        .active {
+            object-fit: cover;
         }
 
     }
